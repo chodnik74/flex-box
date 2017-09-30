@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-size: 14px;
+  color: #000; }
+
+.main {
+  max-width: 1200px;
+  margin: 40px auto;
+  position: relative;
+  display: flex;
+  align-content: center;
+  justify-content: center; }
+  .main .box {
+    flex-basis: 20%;
+    align-self: center;
+    background: #39ffb1;
+    color: #545454;
+    border: 1px solid #000000;
+    padding: 15px;
+    text-align: justify; }
+    .main .box-big {
+      flex-basis: 30%;
+      margin: 0 -5px;
+      position: relative;
+      border: 2px solid #000000; }
+
+/*# sourceMappingURL=style.css.map */
